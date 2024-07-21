@@ -1,0 +1,8 @@
+2024-07-21 12:27:38,918 - INFO - {'seed': 2024, 'batch_size': 40960, 'num_workers': 10, 'lr': 0.01, 'weight_decay': 1e-06, 'gpu': 0, 'epochs': 15, 'early_stop': 3, 'Transformer': {'emb_dim': 128, 'num_heads': 2, 'dropout': 0.1, 'num_layers': 3}, 'wind': {'global_wind': 1, 'wind_direction': 0, 'MLM': 0, 'MLM_mask': 0, 'KL_Loss': 0, 'temp_add': 0}, 'temp': {'global_wind': 0, 'wind_direction': 0, 'MLM': 1, 'MLM_mask': 0, 'KL_Loss': 0, 'temp_add': 1}, 'temp_MLM': {'lr': 0.001, 'epochs': 30, 'gpu': 0, 'vocab_size': 1700, 'hidden_size': 64, 'num_hidden_layers': 2, 'num_attention_heads': 2, 'intermediate_size': 64}}
+2024-07-21 12:27:38,918 - INFO - Namespace(data_split=0, test='all', train='wind')
+2024-07-21 12:34:39,108 - INFO - Epoch: 0	Evaluate Loss: 3.9440130949020387	Evaluate var_Loss: 0.43403133749961853
+2024-07-21 12:41:34,526 - INFO - Epoch: 1	Evaluate Loss: 3.9241394996643066	Evaluate var_Loss: 0.43191736936569214
+2024-07-21 12:48:31,227 - INFO - Epoch: 2	Evaluate Loss: 3.9203398704528807	Evaluate var_Loss: 0.43124446272850037
+2024-07-21 12:55:27,107 - INFO - Epoch: 3	Evaluate Loss: 3.965561771392822	Evaluate var_Loss: 0.436332643032074
+2024-07-21 13:02:25,817 - INFO - Epoch: 4	Evaluate Loss: 3.955455780029297	Evaluate var_Loss: 0.435403436422348
+2024-07-21 13:09:20,880 - INFO - Epoch: 5	Evaluate Loss: 3.9617658615112306	Evaluate var_Loss: 0.4360058903694153

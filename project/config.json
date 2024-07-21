@@ -1,0 +1,42 @@
+{
+    "seed": 2024,
+    "batch_size": 40960,
+    "num_workers": 10,
+    "lr": 0.01,
+    "weight_decay": 1e-6,
+    "gpu": 0,
+    "epochs": 15,
+    "early_stop": 3,
+    "Transformer":{
+        "emb_dim": 128,
+        "num_heads": 2,
+        "dropout": 0.1,
+        "num_layers": 3
+    },
+    "wind":{
+        "global_wind": 1,
+        "wind_direction": 0,
+        "MLM": 0,
+        "MLM_mask": 0,
+        "KL_Loss": 0,
+        "temp_add": 0
+    },
+    "temp":{
+        "global_wind": 0,
+        "wind_direction": 0,
+        "MLM": 1,
+        "MLM_mask": 0,
+        "KL_Loss": 0,
+        "temp_add": 1
+    },
+    "temp_MLM":{
+        "lr": 0.001,
+        "epochs": 30,
+        "gpu": 0,
+        "vocab_size": 1700,
+        "hidden_size": 64,
+        "num_hidden_layers": 2,
+        "num_attention_heads": 2,
+        "intermediate_size": 64
+    }
+}
